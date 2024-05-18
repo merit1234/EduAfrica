@@ -1,0 +1,88 @@
+.body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.container{
+    height: 80%;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 100px;
+    
+}
+.top{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.emily{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.marcus{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sara{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.emily img{
+    border-radius: 10%;
+    width: 230px;
+    height:150px;
+}
+.marcus img{
+    border-radius: 10%;
+    width: 230px;
+    height:150px;
+}
+.sara img{
+    border-radius: 10%;
+    width: 230px;
+    height:150px;
+}
+
+h1, h3, h5{
+    font-size: 20px;
+    text-align: center;
+}
+h2, h4, h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+h1,
+h2{
+    margin: 5px;
+}
+h3,
+h4{
+    margin: 5px;
+}
+h5,
+h6{
+    margin: 5px;
+}
+
