@@ -432,11 +432,14 @@ button:focus {
 /* Start About Area css
 ============================================================================================ */
 .h_blog_item .col-lg-6 {
-  vertical-align: middle;
-  align-self: center; }
+  vertical-align: left;
+  align-self: center; 
+  background: #a507e3;}
 .h_blog_item .h_blog_img {
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  margin-top: 0%;
+  padding-top: 0%;}
 .h_blog_item .h_blog_text {
   padding-top: 0px;
   padding-bottom: 20px; }
