@@ -434,7 +434,8 @@ button:focus {
 .h_blog_item .col-lg-6 {
   vertical-align: left;
   align-self: center; 
-  background: #a507e3;}
+  background: #a507e3;
+margin-bottom: 0%;}
 .h_blog_item .h_blog_img {
   position: relative;
   z-index: 10;
