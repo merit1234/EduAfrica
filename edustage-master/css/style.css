@@ -72,7 +72,7 @@ button:focus {
       margin-top: 0px; } }
 
 .title-bg {
-  background: #002347; }
+  background: #585858; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -245,7 +245,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #ffffff;
+    background: #631caa;
     -webkit-transform: translateY(70px);
     -moz-transform: translateY(70px);
     -ms-transform: translateY(70px);
@@ -752,7 +752,7 @@ button:focus {
 /* Start Registration Area css
 ============================================================================================ */
 .registration_area {
-  background: #002347; }
+  background: rgba(144, 13, 244, 0.8); }
 
 .clock_sec {
   color: #fff; }
@@ -891,7 +891,7 @@ button:focus {
 ============================================================================================ */
 .events_area {
   padding: 130px 0 100px;
-  background: #002347; }
+  background: rgba(144, 13, 244, 0.8); }
   @media (max-width: 991px) {
     .events_area {
       padding: 70px 0; } }
