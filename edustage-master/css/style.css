@@ -1,19 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
-Author E-mail: info@spondonit.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Medicare Medical
-@Author: Naim LAsker
-@Developed By: Naim LAsker
-
-
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -276,7 +261,7 @@ button:focus {
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
       color: #002347; }
   .header_area.white-header.navbar_fixed .main_menu {
-    background: #002347; }
+    background: #631caa; }
     .header_area.white-header.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link, .header_area.white-header.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link {
       color: #fdc632; }
 
@@ -329,7 +314,7 @@ button:focus {
   z-index: 1;
   min-height: 900px;
   position: relative;
-  background: url(../img/banner/home-banner.jpg) no-repeat center;
+  background: url(../img/banner/bg3.jpg) no-repeat center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     position: absolute;
@@ -359,7 +344,7 @@ button:focus {
   overflow: hidden;
   margin-bottom: 0px; }
   .blog_banner .banner_inner {
-    background: #04091e;
+    background: #631caa;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -377,7 +362,7 @@ button:focus {
     .blog_banner .banner_inner .blog_b_text {
       max-width: 700px;
       margin: auto;
-      color: #fff;
+      color: #ffffff;
       margin-top: 40px; }
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
@@ -410,7 +395,7 @@ button:focus {
       right: 0;
       top: 0;
       bottom: 0;
-      background: rgba(0, 35, 71, 0.8); }
+      background: rgba(144, 13, 244, 0.8); }
     .banner_area .banner_inner .banner_content {
       position: relative;
       z-index: 2;
@@ -3256,7 +3241,7 @@ h6 {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #013568; }
+  background: #631caa; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
