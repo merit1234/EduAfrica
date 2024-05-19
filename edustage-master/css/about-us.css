@@ -1,71 +1,77 @@
-/*.about-us .banner_area {
+.about-us .banner_area {
   position: relative;
   background: url(../img/banner/about-banner.jpg) no-repeat center center;
   z-index: 1;
-  height: 600px;
+  min-height: 392px;
   padding-top: 0 !important;
   background-size: cover;
-}*/
-/*.about-us .banner_area .banner_inner {
+}
+.about-us .banner_area .banner_inner {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 600px;
+  min-height: 392px;
   z-index: 1;
-}*/
-/*.about-us .banner_area .banner_inner .overlay,
+}
+.about-us .banner_area .banner_inner .overlay,
 .feature_area .overlay {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;*/
-  /* background: linear-gradient(
-    316deg,
-    rgba(107, 45, 92, 0.8) 0%,
-    rgba(224, 229, 229, 0.6) 100%
-  ); */
-
-  /*background: linear-gradient(
+  bottom: 0;
+  background: linear-gradient(
     316deg,
     rgba(66, 134, 244, 0.8) 0%,
     rgba(55, 59, 68, 0.6) 100%
   );
 }
 
-*/
-
-.parent .image1{
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100%;
+.image-wrap {
   width: 100%;
-  z-index: 10;
-  margin-top: 0%;
-  padding-top: 0%;
-
-}
-.parent .image2{
+  height: 400px;
   position: relative;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  left: 0;
-  margin-top: 0%;
-  padding-top: 0%;
- 
 }
 
+.box {
+  height: 60%;
+  width: 70%;
+  box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+  border: 15px solid #fff;
+  display: flex;
+  text-align: center;
+}
+
+.image1 {
+  background: url(../img/about-us/about3.jpg) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image2 {
+  background: url(../img/about-us/about2.jpg) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.positioned {
+  position: relative;
+  bottom: 4em;
+  left: 8em;
+  width: 60%;
+  height: 65%;
+}
 
 #feature_area {
   position: relative;
   z-index: 0;
   background-attachment: fixed;
-  
-  background-color: rgba(96, 1, 180, 1);
-  padding-top: 35px;
+  padding-top: 2;
+  background-color: #631caa;
 
+  margin-top: 0;
 }
 
 .feature_area .icon span {
