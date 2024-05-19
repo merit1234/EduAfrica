@@ -1,4 +1,19 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: SPONDON IT
+Author E-mail: info@spondonit.com
 
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Medicare Medical
+@Author: Naim LAsker
+@Developed By: Naim LAsker
+
+
+=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -72,7 +87,7 @@ button:focus {
       margin-top: 0px; } }
 
 .title-bg {
-  background: #585858; }
+  background: #002347; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -96,6 +111,29 @@ button:focus {
 
 /* Main Title Area css
 ============================================================================================ */
+.row{
+  justify-content: center;
+  
+}
+.Hackathon{
+  height: 400px;
+  
+}
+.arrow{
+  text-align: center;
+}
+.time{
+    color: white;
+}
+.virtual{
+    height: 400px;
+}
+.career{
+    height: 400px;
+}
+
+
+
 .main_title {
   text-align: center;
   margin-bottom: 85px; }
@@ -245,7 +283,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: rgba(96, 1, 180, 1);
+    background: #ffffff;
     -webkit-transform: translateY(70px);
     -moz-transform: translateY(70px);
     -ms-transform: translateY(70px);
@@ -261,7 +299,7 @@ button:focus {
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
       color: #002347; }
   .header_area.white-header.navbar_fixed .main_menu {
-    background: rgba(96, 1, 180, 1); }
+    background: #002347; }
     .header_area.white-header.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link, .header_area.white-header.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link {
       color: #fdc632; }
 
@@ -314,7 +352,7 @@ button:focus {
   z-index: 1;
   min-height: 900px;
   position: relative;
-  background: url(../img/banner/bg3.jpg) no-repeat center;
+  background: url(../img/banner/home-banner.jpg) no-repeat center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     position: absolute;
@@ -344,7 +382,7 @@ button:focus {
   overflow: hidden;
   margin-bottom: 0px; }
   .blog_banner .banner_inner {
-    background: #631caa;
+    background: #04091e;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -362,7 +400,7 @@ button:focus {
     .blog_banner .banner_inner .blog_b_text {
       max-width: 700px;
       margin: auto;
-      color: #ffffff;
+      color: #fff;
       margin-top: 40px; }
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
@@ -395,7 +433,7 @@ button:focus {
       right: 0;
       top: 0;
       bottom: 0;
-      background: rgba(144, 13, 244, 0.8); }
+      background: rgba(0, 35, 71, 0.8); }
     .banner_area .banner_inner .banner_content {
       position: relative;
       z-index: 2;
@@ -432,15 +470,11 @@ button:focus {
 /* Start About Area css
 ============================================================================================ */
 .h_blog_item .col-lg-6 {
-  vertical-align: left;
-  align-self: center; 
-  background: rgba(96, 1, 180, 1);
-margin-bottom: 0%;}
+  vertical-align: middle;
+  align-self: center; }
 .h_blog_item .h_blog_img {
   position: relative;
-  z-index: 10;
-  margin-top: 0%;
-  padding-top: 0%;}
+  z-index: 10; }
 .h_blog_item .h_blog_text {
   padding-top: 0px;
   padding-bottom: 20px; }
@@ -756,7 +790,7 @@ margin-bottom: 0%;}
 /* Start Registration Area css
 ============================================================================================ */
 .registration_area {
-  background: rgba(96, 1, 180, 1); }
+  background: #002347; }
 
 .clock_sec {
   color: #fff; }
@@ -913,12 +947,9 @@ margin-bottom: 0%;}
 .career{
     height: 400px;
 }
-
-
 .events_area {
   padding: 130px 0 100px;
-  background: rgba(96, 1, 180, 1); }
-  
+  background: #002347; }
   @media (max-width: 991px) {
     .events_area {
       padding: 70px 0; } }
@@ -928,7 +959,7 @@ margin-bottom: 0%;}
     text-transform: uppercase; }
     .events_area .event-link img {
       margin-left: 5px;
-      display: inline-block; }
+      display: flex; }
 
 .single_event {
   margin-bottom: 30px; }
@@ -971,6 +1002,21 @@ margin-bottom: 0%;}
     transform: scale(1.1); }
   .single_event:hover h4 a {
     color: #fdc632; }
+
+    .Hackathon{
+      height: ;
+    }
+    /* Add this CSS to ensure all events stack on the same line */
+.single_event {
+  margin-bottom: 0; /* Remove default bottom margin */
+  margin-right: 15px; /* Add some space between events */
+}
+
+/* Center the arrow */
+.arrow {
+  display: block;
+  margin: 0 auto;
+}
 
 /* End Event Area css
 ============================================================================================ */
@@ -3129,7 +3175,7 @@ h6 {
   /* Footer Area css
 	============================================================================================ */
   .footer-area .col-sm-6 {
-    margin-bottom: 15px; }
+    margin-bottom: 30px; }
 
   /* End End Footer Area css
 	============================================================================================ */
@@ -3268,7 +3314,7 @@ h6 {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: rgba(96, 1, 180, 1); }
+  background: #002347; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }

@@ -62,10 +62,9 @@
   position: relative;
   z-index: 0;
   background-attachment: fixed;
-  padding-top:2 ;
-  background-color: #631caa;
   
-  margin-top: 0;
+  background-color: rgba(96, 1, 180, 1);
+  padding-top: 35px;
 
 }
 
