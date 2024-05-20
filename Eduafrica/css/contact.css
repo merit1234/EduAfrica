@@ -1,0 +1,31 @@
+.contact .banner_area {
+    background: url(../img/contact/contact-banner.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .contact .banner_area .banner_inner .overlay {
+    background: linear-gradient(
+      316deg,
+      rgba(66, 134, 244, 0.8) 0%,
+      rgba(55, 59, 68, 0.6) 100%
+    );
+  }
+  #contactForm .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .contact_area .contact_form {
+    direction: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+  }
+  .contact_area .contact_form .form-inputs {
+    max-width: 100%;
+  }
+  
+  .modal-message .modal-dialog .modal-content .modal-header .success-button {
+    border: none;
+    font-size: 15px;
+    margin-top: 20px;
+  }

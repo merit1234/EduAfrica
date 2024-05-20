@@ -15,8 +15,14 @@
     <link rel="stylesheet" href="css/themify-icons.css" />
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
 
   <body>
@@ -124,45 +130,32 @@
     <!--================Contact Area =================-->
     <section class="contact_area section_gap">
       <div class="container">
-        <div
-          id="mapBox"
-          class="mapBox"
-          data-lat="40.701083"
-          data-lon="-74.1522848"
-          data-zoom="13"
-          data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-          data-mlat="40.701083"
-          data-mlon="-74.1522848"
-        ></div>
-        <div class="row">
+        <div class="row contact_section">
           <div class="col-lg-3">
             <div class="contact_info">
               <div class="info_item">
-                <i class="ti-home"></i>
-                <h6>California, United States</h6>
-                <p>Santa monica bullevard</p>
+                <i class="fa-solid fa-location-dot"></i>
+                <h6>Abuja, Nigeria</h6>
+                <p>No. 6, Sultan Usman Street</p>
               </div>
               <div class="info_item">
-                <i class="ti-headphone"></i>
-                <h6><a href="#">00 (440) 9865 562</a></h6>
+                <i class="fa-solid fa-phone"></i>
+                <h6><a href="#">+234 903 009 1187</a></h6>
                 <p>Mon to Fri 9am to 6 pm</p>
               </div>
               <div class="info_item">
-                <i class="ti-email"></i>
-                <h6><a href="#">support@colorlib.com</a></h6>
-                <p>Send us your query anytime!</p>
+                <i class="fa-solid fa-envelope"></i>
+                <h6><a href="#">support@eduafrica.com</a></h6>
               </div>
             </div>
           </div>
           <div class="col-lg-9">
             <form
               class="row contact_form"
-              action="contact_process.php"
-              method="post"
               id="contactForm"
               novalidate="novalidate"
             >
-              <div class="col-md-6">
+              <div class="col-md-6 form-inputs">
                 <div class="form-group">
                   <input
                     type="text"
@@ -200,7 +193,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 form-inputs">
                 <div class="form-group">
                   <textarea
                     class="form-control"
@@ -213,15 +206,25 @@
                     required=""
                   ></textarea>
                 </div>
-              </div>
-              <div class="col-md-12 text-right">
-                <button type="submit" value="submit" class="btn primary-btn">
-                  Send Message
-                </button>
+                <div class="col-md-12 text-right">
+                  <button type="submit" value="submit" class="btn primary-btn">
+                    Send Message
+                  </button>
+                </div>
               </div>
             </form>
           </div>
         </div>
+        <div
+          id="mapBox"
+          class="mapBox"
+          data-lat="40.701083"
+          data-lon="-74.1522848"
+          data-zoom="13"
+          data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+          data-mlat="40.701083"
+          data-mlon="-74.1522848"
+        ></div>
       </div>
     </section>
     <!--================Contact Area =================-->
