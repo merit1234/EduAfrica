@@ -192,7 +192,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 14px/80px "Rubik", sans-serif;
         text-transform: capitalize;
-        color: #002347;
+        color: #fbfcfd;
         padding: 0px;
         display: inline-block; }
         @media (max-width: 991px) {
@@ -681,14 +681,14 @@ margin-bottom: 0%;}
   top: -34px;
   right: 15px;
   z-index: 2;
-  color: #002347;
+  color: #ffffff;
   display: inline-block;
   height: 65px;
   line-height: 65px;
   width: 65px;
   text-align: center;
   border-radius: 50px;
-  background: #fdc632;
+  background: #002347;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -3633,7 +3633,7 @@ h6 {
 
 .blog_btn {
   border: 1px solid #eeeeee;
-  background: #f1f9ff;
+  background: #021b2e;
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 600;
