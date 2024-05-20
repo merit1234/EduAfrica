@@ -509,7 +509,7 @@ button:focus {
 .h_blog_item .col-lg-6 {
   vertical-align: left;
   align-self: center; 
-  background: #a507e3;
+  background: rgba(96, 1, 180, 1);
 margin-bottom: 0%;}
 .h_blog_item .h_blog_img {
   position: relative;
@@ -923,7 +923,7 @@ margin-bottom: 0%;}
 /* Start Registration Area css
 ============================================================================================ */
 .registration_area {
-  background: rgba(144, 13, 244, 0.8); }
+  background: rgba(96, 1, 180, 1); }
 
 .clock_sec {
   color: #fff;
@@ -1125,7 +1125,7 @@ margin-bottom: 0%;}
 
 .events_area {
   padding: 130px 0 100px;
-  background: rgba(144, 13, 244, 0.8); }
+  background: rgba(96, 1, 180, 1); }
   @media (max-width: 991px) {
     .events_area {
       padding: 70px 0; } }
@@ -4007,7 +4007,7 @@ h6 {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #631caa; }
+  background: rgba(96, 1, 180, 1); }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
