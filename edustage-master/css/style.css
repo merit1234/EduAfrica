@@ -406,7 +406,7 @@ button:focus {
   z-index: 1;
 }
 .blog_banner .banner_inner .overlay {
-  background: url(../img/banner/banner-2.jpg) no-repeat center center;
+  background: url(../img/banner/about-banner.jpg) no-repeat center center;
   opacity: 0.5;
   height: 125%;
   position: absolute;
@@ -452,7 +452,7 @@ button:focus {
   min-height: 392px;
   z-index: 1;
 }
-.banner_area .banner_inner .overlay {
+.banner_area .banner_inner, .feature_area .overlay {
   position: absolute;
   left: 0;
   right: 0;
@@ -461,7 +461,7 @@ button:focus {
   background: linear-gradient(
     316deg,
     rgba(66, 134, 244, 0.8) 0%,
-    rgba(55, 59, 68, 0.6) 100%
+    rgba(75, 5, 173, 0.6) 100%
   );
 }
 .banner_area .banner_inner .banner_content {
@@ -564,8 +564,8 @@ margin-bottom: 0%;}
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
-}
+  width: 100%;}
+
 @media (max-width: 991px) {
   .feature_area {
     padding-bottom: 40px;
