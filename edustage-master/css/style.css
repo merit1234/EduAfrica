@@ -452,7 +452,7 @@ button:focus {
   min-height: 392px;
   z-index: 1;
 }
-.banner_area .banner_inner, .feature_area .overlay {
+.banner_area .banner_inner .overlay {
   position: absolute;
   left: 0;
   right: 0;
